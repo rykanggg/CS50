@@ -1,15 +1,23 @@
 
             body{
                 font-family: arial, sans-serif;
+                height=100%;
             }
             nav {
                 text-align: right;
-        	}
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+            
+            .pages {
+                padding: 10px;
+            }
 
         	img {
         		display: block;
   				margin-left: auto;
-  				margin-right: auto;
+                margin-right: auto;
+                margin-top: 50px;
   				height: 92px;
   				padding-top: 109px;
   				padding-bottom:30px;
@@ -36,27 +44,36 @@
 
             }
 
+
         	#bar {
-        		padding: 10px;
+        		padding: 10px 30px 10px 30px;
         		font-size: 20px;
         		border-radius: 25px;
                 cursor: text;
+                width: 530px;
+                margin-top: -5px;
+                border-color: #f2f2f2;
+                        
         	}
 
             #bar:hover {
-                box-shadow: 2px 2px 2px #3c4043 ;
+                box-shadow: 2px 2px 2px 2px;
+            }
+
+            #bar:focus {
+                onfocu
             }
 
         	.button {
-        		background-color: #f8f9fa;
-                border: 1px solid #f8f9fa;
+        		background-color: #f8f9fa ;
+                border: 1px solid #f8f9fa ;
                 border-radius: 4px;
                 color: #3c4043;
                 font-size: 14px;
                 padding: 0 16px;
-                
+                margin: -10px 10px;
                 height:36px;
-                width:200px;
+                max-width: 150px;
         		padding: 10px;
         		font-size: 15px;
         		text-align: center;
